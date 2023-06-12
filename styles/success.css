@@ -1,0 +1,25 @@
+@import url(./main.css);
+
+.container{
+flex-direction: column;
+width: 500px;
+min-width: 200px;
+padding: 2rem 3rem;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+}
+
+
+@media (max-width: 478px){
+    .container{
+        width: 100%;
+        height: 100%;
+    }
+
+    .btn{
+        margin-top:auto ;
+    }
+}
