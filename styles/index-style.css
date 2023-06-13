@@ -73,6 +73,9 @@ ul li img{
 
 
 
+
+
+
 @media (max-width: 478px) {
     .container {
         width: 100%;
@@ -84,9 +87,18 @@ ul li img{
 
     .right-side {
         order: 1;
-
+     
        
     }
+
+ #image{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    
+ }
     .left-side{
         order: 2;
         margin: 0;
@@ -97,14 +109,7 @@ ul li img{
     .container .left-container{
         margin: 0;
         padding: 0;
-    }
-
-  
-    .image img{
-      content:url(./images/illustration-sign-up-mobile.svg);
-    }
-
- 
+    } 
 
 
 

@@ -34,3 +34,20 @@ window.addEventListener('DOMContentLoaded', function() {
         successText.innerHTML = `Beklenmedik bir hata oluştu.`;
     }
 });
+
+
+window.addEventListener('DOMContentLoaded' , function() {
+    let imageAtt = document.getElementById('image');
+    let newSrc = './images/illustration-sign-up-mobile.svg'
+    function handleResize() {
+        if (window.innerWidth <= 478) {
+            imageAtt.setAttribute('src' , newSrc )
+        } else{
+            imageAtt.setAttribute('src' , './images/illustration-sign-up-desktop.svg'  )
+        }
+    }
+
+    handleResize();
+
+    window.addEventListener('resize' , handleResize);
+})
