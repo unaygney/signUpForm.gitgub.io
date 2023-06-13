@@ -6,11 +6,17 @@ This a challenge for build one page web which user should be able to:
 
 + It checks the entered mail and if it is wrong, it gives a notification to the user.
 
+# What technologies did i use?
+
 + -Semantic HTML5 markup
 
 + CSS custom properties
 
 + Flexbox
+
++ DOM manipulation
+
++ Javascript
 
 ## Whad did i learn? 
 
